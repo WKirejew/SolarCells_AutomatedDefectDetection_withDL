@@ -21,4 +21,9 @@
 
 ## How to use the resources:
 
+- DataSet used during the project is included in the folders /FV-Cells/ and /ROI/,
+
+
+For the full documentation and report visit [link](https://drive.google.com/file/d/18QVaWcz89qqX2FUrP4Oz0Faoa4F8xLXv/view?usp=sharing)
+
 ### 
