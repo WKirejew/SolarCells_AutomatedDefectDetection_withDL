@@ -19,6 +19,14 @@
 
 ## Requirements:
 
+Installed:
+ > tensorflow, \
+ > matplotlib, \
+ > scikit-image, \
+ > numpy, \
+ > opencv-python, \
+ > 
+
 ## How to use the resources:
 
 - DataSet used during the project is included in the folders /FV-Cells/ and /ROI/,
