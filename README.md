@@ -14,8 +14,9 @@
 - Image segmentation
   > It will begin by segmenting the photographs into reduced images of 64x64 pixels to analyze each cell as if they were more than one and thus, by means of a cumulative, detect the pixels of the original images that contain some defect.
   > **Results:** The model trained with good examples created this way and saved in the folder “segmentation/train/good” should train way better, as the number of training examples is more than 10 times higher.
-- U-NET Architectur
+- U-NET Architecture
   > U-Net is a semantic segmentation technique originally proposed for medical imaging segmentation. It’s one of the earlier deep learning segmentation models, and the U-Net architecture is also used in many GAN variants such as the Pix2Pix generator.
+  > **Results:**
 
 ## Requirements:
 
