@@ -22,6 +22,7 @@
 
 Installed:
  > tensorflow, \
+ > keras, \
  > matplotlib, \
  > scikit-image, \
  > numpy, \
@@ -30,8 +31,9 @@ Installed:
 
 ## How to use the resources:
 
-- DataSet used during the project is included in the folders /FV-Cells/ and /ROI/,
-
+- DataSet used during the project is included in the folders **/FV-Cells/Full_Defected/** and **/FV-Cells/Full_Defected/**,
+- *Auto_Encoder.ipynb* and *Image_segmentation.ipynb* notebooks in detail show the steps taken with those approaches and illustrate samples,
+- Notebook *Final_project.ipynb* utilize all three approaches
 
 For the full documentation and report visit [link](https://drive.google.com/file/d/18QVaWcz89qqX2FUrP4Oz0Faoa4F8xLXv/view?usp=sharing)
 
