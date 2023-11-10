@@ -16,7 +16,7 @@
   > **Results:** The model trained with good examples created this way and saved in the folder “segmentation/train/good” should train way better, as the number of training examples is more than 10 times higher.
 - U-NET Architecture
   > U-Net is a semantic segmentation technique originally proposed for medical imaging segmentation. It’s one of the earlier deep learning segmentation models, and the U-Net architecture is also used in many GAN variants such as the Pix2Pix generator.
-  > **Results:**
+  > **Results:** Comparison of images beeing results of different pretrained U-NETs
 
 ## Requirements:
 
@@ -26,15 +26,19 @@ Installed:
  > matplotlib, \
  > scikit-image, \
  > numpy, \
- > opencv-python, \
- > 
+ > opencv-python
 
 ## How to use the resources:
 
-- DataSet used during the project is included in the folders **/FV-Cells/Full_Defected/** and **/FV-Cells/Full_Defected/**,
-- *Auto_Encoder.ipynb* and *Image_segmentation.ipynb* notebooks in detail show the steps taken with those approaches and illustrate samples,
-- Notebook *Final_project.ipynb* utilize all three approaches
+1. Downlad DataSet from the [Drive](https://drive.google.com/file/d/1KHIzLBT4mDT78LYAmoBT76wBO5z4e8a2/view?usp=sharing)
+2. Create a project folder with all *\*.ipynb* files, inside it make a new directory **FV-Cells** and unzip the DataSet into it.
+- DataSet used during the project should end up in the folders **/FV-Cells/Policristal/Full_Defected/** and **/FV-Cells/Policristal/Full_Defected/**,
+3. Run *Auto_Encoder.ipynb* and *Image_segmentation.ipynb* notebooks to observe in detail the steps taken with those respective approaches and watch illustrated samples,
+4. Run Notebook *Final_project.ipynb* to see utilization of all three approaches
 
 For the full documentation and report visit [link](https://drive.google.com/file/d/18QVaWcz89qqX2FUrP4Oz0Faoa4F8xLXv/view?usp=sharing)
 
-### 
+### Credits:
+
+[Mondragon Unibertsitatea](https://www.mondragon.edu/en/home) - for the opportunity,
+[prof. Luka](https://www.linkedin.com/in/luka-eciolaza-9a015a13/) - for the topic, dataset and guidance
