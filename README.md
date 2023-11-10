@@ -9,13 +9,13 @@
 
 **Deep Learning methods and approaches tested in the project:**
 - Autoencoder approach
-  > An Unsupervised Autoencoder will be used to detect these defects. It will be trained only with images of good cells. The aim is to train the model so that it can reconstruct the good images as similar as possible to the previous images and, in turn, be unable to correctly reconstruct the images that contain some type of defect. That is, compare the original images with the images reconstructed by the autoencoder and see how the images that contain good cells are practically the same, while there will be differences with the images with bad cells.
+  > An Unsupervised Autoencoder will be used to detect these defects. It will be trained only with images of good cells. The aim is to train the model so that it can reconstruct the good images as similar as possible to the previous images and, in turn, be unable to correctly reconstruct the images that contain some type of defect. That is, compare the original images with the images reconstructed by the autoencoder and see how the images that contain good cells are practically the same, while there will be differences with the images with bad cells. \
   > **Results:** As the database of good cells contained only 200 images the training process of the model was not satisfactory hance method results were poor.
 - Image segmentation
-  > It will begin by segmenting the photographs into reduced images of 64x64 pixels to analyze each cell as if they were more than one and thus, by means of a cumulative, detect the pixels of the original images that contain some defect.
+  > It will begin by segmenting the photographs into reduced images of 64x64 pixels to analyze each cell as if they were more than one and thus, by means of a cumulative, detect the pixels of the original images that contain some defect. \
   > **Results:** The model trained with good examples created this way and saved in the folder “segmentation/train/good” should train way better, as the number of training examples is more than 10 times higher.
 - U-NET Architecture
-  > U-Net is a semantic segmentation technique originally proposed for medical imaging segmentation. It’s one of the earlier deep learning segmentation models, and the U-Net architecture is also used in many GAN variants such as the Pix2Pix generator.
+  > U-Net is a semantic segmentation technique originally proposed for medical imaging segmentation. It’s one of the earlier deep learning segmentation models, and the U-Net architecture is also used in many GAN variants such as the Pix2Pix generator. \
   > **Results:** Comparison of images beeing results of different pretrained U-NETs
 
 ## Requirements:
